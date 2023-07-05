@@ -1,0 +1,22 @@
+.btnA {
+    background-color: #74FAC0;
+    border-radius: 15px;
+    border: none;
+    width: 437px;
+    color: #01091C;
+    height: 74px;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.btnA:hover {
+    color: aliceblue;
+    background-color: #010B28;
+    transform: translateY(-7px);
+    transition-duration: 0.6s;
+}
+

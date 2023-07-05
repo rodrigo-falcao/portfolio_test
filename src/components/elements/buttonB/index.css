@@ -1,0 +1,22 @@
+.btnB {
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid #74FAC0 ;
+    padding: 15px;
+    color: #74FAC0;
+    height: 59px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btnB:hover {
+    color: aliceblue;
+    background-color: #010B28;
+    transform: translateY(-7px);
+    transition-duration: 0.6s;
+}
+

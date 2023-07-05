@@ -1,0 +1,50 @@
+.cards {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 451px;
+    height: 231px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.card img:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.cardDescription {
+    width: 551px;
+    height: 287px;
+    border-radius: 15px;
+    background-color: rgba(1, 9, 28, 0.85);
+    filter: drop-shadow(0px 4px 4px rgba(0,0, 0.25, 0.25));
+}
+
+.cardDescription h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px;
+}
+
+.cardDescription h4 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 25px;
+}
+
+.cardDescription p {
+    font-size: 25px;
+    margin: 25px;
+}
+
+.buttonCard {
+    display: flex;
+    justify-content: left;
+    margin: 25px;
+}

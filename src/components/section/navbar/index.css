@@ -1,0 +1,29 @@
+.navbar {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbarStyle {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1em;
+    padding: 1em 0;
+}
+
+.navbarStyle ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbarStyle li {
+    margin: 10px;
+}
+
+.navbar a {
+    color: aliceblue !important;
+    text-decoration: none;
+}

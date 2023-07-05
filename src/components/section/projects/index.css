@@ -1,0 +1,17 @@
+.Projects {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 25px;
+}
+
+.Projects h1 {
+    font-family: Inter;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}

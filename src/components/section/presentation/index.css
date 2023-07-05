@@ -1,0 +1,24 @@
+.presentation {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 25px;
+    background-size: cover;
+}
+
+.presentationStyle {
+    margin-left: 15%;
+}
+
+.presentationStyle p{
+    width: 648px;
+}
+
+.presentationStyle h3 {
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+.presentationStyle h1 {
+    padding-bottom: 50px;
+    font-size: 45px;
+}
