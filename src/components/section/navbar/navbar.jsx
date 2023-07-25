@@ -14,9 +14,9 @@ const Navbar = () => {
                     <li><Nav.Link href='#Projects'>Projetos</Nav.Link></li>
                 </ul>
                 <ul>
-                    <li><a target="_blank" href="#"><FaInstagram size={30}/></a></li>
-                    <li><a target="_blank" href="https://www.linkedin.com/in/rodrigo-falcao-ferreira/"><FaLinkedin size={30}/></a></li>
-                    <li><a target="_blank" href="https://github.com/rodrigo-falcao"><FaGithub size={30}/></a></li>
+                    <li><a target="_blank" rel='noreferrer' href="https://www.instagram.com/"><FaInstagram size={30}/></a></li>
+                    <li><a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/rodrigo-falcao-ferreira/"><FaLinkedin size={30}/></a></li>
+                    <li><a target="_blank" rel='noreferrer' href="https://github.com/rodrigo-falcao"><FaGithub size={30}/></a></li>
                 </ul>
             </div>
         </div>

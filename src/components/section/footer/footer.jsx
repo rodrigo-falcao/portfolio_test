@@ -6,9 +6,9 @@ const Footer = () => {
     return (
         <div className='footer'>
             <ul>
-                <li><a target="_blank" href="#"><FaInstagram size={24}/></a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/rodrigo-falcao-ferreira/"><FaLinkedin size={24}/></a></li>
-                <li><a target="_blank" href="https://github.com/rodrigo-falcao"><FaGithub size={24}/></a></li>
+                <li><a target="_blank" rel='noreferrer' href="https://www.instagram.com/"><FaInstagram size={24}/></a></li>
+                <li><a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/rodrigo-falcao-ferreira/"><FaLinkedin size={24}/></a></li>
+                <li><a target="_blank" rel='noreferrer' href="https://github.com/rodrigo-falcao"><FaGithub size={24}/></a></li>
             </ul>
             <p>
                 Rodrigo@dnc.com.br
