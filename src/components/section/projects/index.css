@@ -15,3 +15,14 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .Projects {
+        padding: 0 15px;
+    }
+
+    .Projects h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}

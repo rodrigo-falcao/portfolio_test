@@ -22,3 +22,22 @@
     padding-bottom: 50px;
     font-size: 45px;
 }
+
+@media (max-width: 768px) {
+    .presentationStyle {
+        margin-left: 0;
+    }
+
+    .presentationStyle p {
+        width: 100%;
+    }
+
+    .presentationStyle h3,
+    .presentationStyle h1 {
+        padding-bottom: 30px;
+    }
+
+    .presentationStyle h1 {
+        font-size: 36px;
+    }
+}

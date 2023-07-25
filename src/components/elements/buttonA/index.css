@@ -20,3 +20,12 @@
     transition-duration: 0.6s;
 }
 
+@media (max-width: 768px) {
+    .btnA {
+        width: 100%;
+        max-width: 337px;
+        height: 60px;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+}
