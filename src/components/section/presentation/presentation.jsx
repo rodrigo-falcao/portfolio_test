@@ -17,7 +17,7 @@ const Presentation = () => {
             toType()
         }, delta)
         return()=> {clearInterval(timer)}
-    }, [text, delta, toType])
+    }, [text, delta])
 
     const toType = () =>{
         let i = loop % toRotate.length;
