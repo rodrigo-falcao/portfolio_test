@@ -12,6 +12,7 @@ const Presentation = () => {
     const period = 80;
     const [delta, setDelta] = useState(100)
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const toType = () =>{
         let i = loop % toRotate.length;
         let fullText = toRotate[i]
@@ -29,13 +30,12 @@ const Presentation = () => {
         }
     }
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(()=> {
         let timer = setInterval(()=>{
             toType()
         }, delta)
         return()=> {clearInterval(timer)}
-    }, [text])
+    }, [text, delta, toType])
 
     return (
         <div id='Presentation' className='presentation'>
