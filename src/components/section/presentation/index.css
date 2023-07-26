@@ -32,12 +32,13 @@
         width: 100%;
     }
 
-    .presentationStyle h3,
-    .presentationStyle h1 {
+    .presentationStyle h3 {
         padding-bottom: 30px;
     }
 
     .presentationStyle h1 {
-        font-size: 36px;
+        padding-bottom: 30px;
+        font-size: 25px;
     }
+
 }
