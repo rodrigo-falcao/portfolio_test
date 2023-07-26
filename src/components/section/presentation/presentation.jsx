@@ -12,13 +12,6 @@ const Presentation = () => {
     const period = 80;
     const [delta, setDelta] = useState(100)
 
-    useEffect(()=> {
-        let timer = setInterval(()=>{
-            toType()
-        }, delta)
-        return()=> {clearInterval(timer)}
-    }, [text, delta, toType])
-
     const toType = () =>{
         let i = loop % toRotate.length;
         let fullText = toRotate[i]
@@ -34,8 +27,14 @@ const Presentation = () => {
             setDelta(period);
             setLoop(loop+1);
         }
-
     }
+
+    useEffect(()=> {
+        let timer = setInterval(()=>{
+            toType()
+        }, delta)
+        return()=> {clearInterval(timer)}
+    }, [text, delta, toType])
 
     return (
         <div id='Presentation' className='presentation'>
