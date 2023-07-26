@@ -29,12 +29,13 @@ const Presentation = () => {
         }
     }
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(()=> {
         let timer = setInterval(()=>{
             toType()
         }, delta)
         return()=> {clearInterval(timer)}
-    }, [text, delta, toType])
+    }, [text])
 
     return (
         <div id='Presentation' className='presentation'>
